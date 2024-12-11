@@ -1,0 +1,89 @@
+{
+    "getUsers": [
+        {
+            "userId": 1,
+            "firstName": "Srikanth",
+            "lastName": "Sekar",
+            "username": "srikanth",
+            "token": "abcd",
+            "accountNumber": "12345"
+        },
+        {
+            "userId": 2,
+            "firstName": "Emma",
+            "lastName": "Smith",
+            "username": "emma",
+            "token": "abcd",
+            "accountNumber": "12346"
+        }
+    ],
+    "fetchTransactions":
+        [
+            {
+                "amount": "10,000.00",
+                "description": "UPI/xxxx@ok/UPI/Central Bank/",
+                "transactionType": "Received",
+                "transactionDate": "2024-12-10",
+                "recipientName": "Rajkumar",
+                "accountNumber": "12345"
+            },
+            {
+                "amount": "400.00",
+                "description": "To RD Ac no 0001000",
+                "transactionType": "Sent",
+                "transactionDate": "2024-12-09",
+                "recipientName": "Emma",
+                "accountNumber": "12346"
+            },
+            {
+                "amount": "4,000.00",
+                "description": "UPI/xxxx@ok/UPI/HSBC Bank/",
+                "transactionType": "Received",
+                "transactionDate": "2024-12-08",
+                "recipientName": "Emma",
+                "accountNumber": "12346"
+            },
+            {
+                "amount": "4,000.00",
+                "description": "UPI/xxxx@ok/UPI/HSBC Bank/",
+                "transactionType": "Received",
+                "transactionDate": "2024-12-07",
+                "recipientName": "Emma",
+                "accountNumber": "12346"
+            },
+            {
+                "amount": "4,000.00",
+                "description": "UPI/xxxx@ok/UPI/SBI Bank/",
+                "transactionType": "Received",
+                "transactionDate": "2024-12-06",
+                "recipientName": "Emma",
+                "accountNumber": "12346"
+            },
+            {
+                "amount": "4,000.00",
+                "description": "UPI/xxxx@ok/UPI/HDFC Bank/",
+                "transactionType": "Received",
+                "transactionDate": "2024-12-05",
+                "recipientName": "Emma",
+                "accountNumber": "12346"
+            },
+            {
+                "amount": "4,000.00",
+                "description": "UPI/xxxx@ok/UPI/HSBC Bank/",
+                "transactionType": "Received",
+                "transactionDate": "2024-12-04",
+                "recipientName": "Emma",
+                "accountNumber": "12346"
+            }
+        ],
+    "fetchWalletBalance": [
+        {
+            "accountNumber": "12345",
+            "balance": "10,000.00"
+        },
+        {
+            "accountNumber": "12346",
+            "balance": "19,600.00"
+        }
+    ]
+}
